@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Benjamin's Advocate: μλ 1.0</title> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{{ url_for('static', filename='images/favicon.png') }}" type="image/png"> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/form.css') }}"> <link rel="stylesheet" href="{{ url_for('static', filename='styles/setup.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/frame.css') }}"> <link rel="stylesheet" href="{{ url_for('static', filename='styles/perps.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/anlz.css') }}"> <link rel="stylesheet" href="{{ url_for('static', filename='styles/dcsn.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/prop.css') }}"> <link rel="stylesheet" href="{{ url_for('static', filename='styles/perd.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/chrt.css') }}"> <link rel="stylesheet" href="{{ url_for('static', filename='styles/tout.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/steps.css') }}"> <link rel="stylesheet" href="{{ url_for('static', filename='styles/uhvr.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/tabs.css') }}"> <link rel="stylesheet" href="{{ url_for('static', filename='styles/dotm.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom/dist/chartjs-plugin-zoom.min.js"></script> <script> Chart.register(ChartZoom); </script>
+    <!-- <script src="./lib/Chart.js-master/dist/chart.umd.js"></script> <script src="./lib/chartjs-plugin-zoom-master/dist/chartjs-plugin-zoom.umd.js"></script> -->
+</head>
+<body>
+    <div class="cntn"> {% include 'form.html' %}
+        <div id="load" style="display: none; z-index: 10"> <img class="load" src="{{ url_for('static', filename='images/loading.gif') }}"> </div>
+        <!-- <div id="btn_frsh" class="btn_frsh"> <button id="PERPS" class="PERPS" onclick="hndl_btn_frsh(false)">O</button> <button id="SRTR" class="PERPS" onclick="pdateSrtr()">↕️</button> </div> -->
+        <div id="box_coin" class="box_coin"> </div> <div id="box_perd" class="box_perd"> </div> <div id="box_prop" class="box_prop"> </div>
+        <div id="box_anlz" class="box_anlz"> </div> <div id="box_dcsn" class="box_dcsn"> </div> <div id="box_step" class="box_step"> </div>
+        <div id="box_chrt" class="box_chrt"> <div id="title" class="title"> </div> <img id="symbol" class="symbol"> </img> <div id="sout" class="sout"> </div> <div id="sneedtot" class="sneedtot"> </div>
+            <canvas id="CHRT" width: 100% height: 100%> </canvas> <div id="iout" class="iout"></div> <div id="dout" class="dout"></div> </div>
+        <div id="box_uhvr" class="box_uhvr"> 
+            <div class="slct_tab"> <button id= "ultd" class="btn_tab" onclick="slct_tab('ultd')">🔃</button> <button id= "hltd" class="btn_tab active" onclick="slct_tab('hltd')">⏪</button> 
+                <button id= "vltd" class="btn_tab" onclick="slct_tab('vltd')">▶️</button> <button id= "rltd" class="btn_tab" onclick="slct_tab('rltd')">⏺️</button> </div>
+            <div class="slct_tm"> <!-- <button id= "fvls" class="btn_tm" onclick="ftrd('vls')">⚪</button> <button id="fvlf" class="btn_tm"  onclick="ftrd('vlf')">⬜</button> -->
+                <button id= "fvls_mng" class="btn_tm" onclick="fmng('vls_mng')">🌐</button> <button id="fvlf_mng" class="btn_tm"  onclick="fmng('vlf_mng')">🚫</button>
+                <!-- <button id= "frls" class="btn_tm"  onclick="ftrd('rls')">🔵</button> <button id="frlf" class="btn_tm"  onclick="ftrd('rlf')">🟦</button> -->
+                <button id= "frls_mng" class="btn_tm"  onclick="fmng('rls_mng')">🌎</button> <button id="frlf_mng" class="btn_tm"  onclick="fmng('rlf_mng')">⛔</button> </div>
+            <div id="tbl_hist"></div> </div> </div>
+    <script src="{{ url_for('static', filename='scripts/glb.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/app.js') }}"></script> <script src="{{ url_for('static', filename='scripts/lod.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/clk.js') }}"></script> <script src="{{ url_for('static', filename='scripts/srt.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/pop.js') }}"></script> <script src="{{ url_for('static', filename='scripts/plt.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/bre.js') }}"></script> <script src="{{ url_for('static', filename='scripts/btn.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/box.js') }}"></script> <script src="{{ url_for('static', filename='scripts/out.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/set.js') }}"></script> <script src="{{ url_for('static', filename='scripts/etm.js') }}"></script>
+</body>
+</html>

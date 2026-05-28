@@ -1,0 +1,50 @@
+[
+    {
+      "leverage": 2,
+      "ratio": 0.25
+    },
+    {
+      "leverage": 5,
+      "ratio": 0.1
+    },
+    {
+      "leverage": 10,
+      "ratio": 0.05
+    },
+    {
+      "leverage": 20,
+      "ratio": 0.025
+    },
+    {
+      "leverage": 25,
+      "ratio": 0.02
+    },
+    {
+      "leverage": 30,
+      "ratio": 0.015
+    },
+    {
+      "leverage": 50,
+      "ratio": 0.01
+    },
+    {
+      "leverage": 75,
+      "ratio": 0.0067
+    },
+    {
+      "leverage": 100,
+      "ratio": 0.005
+    },
+    {
+      "leverage": 125,
+      "ratio": 0.004
+    },
+    {
+      "leverage": 150,
+      "ratio": 0.0033
+    },
+    {
+      "leverage": 200,
+      "ratio": 0.0025
+    }
+  ]

@@ -1,0 +1,32 @@
+.box_uhvr {
+    position: fixed;
+    top: calc(61.8% + 20px);
+    left: calc(250px + 20px);
+    bottom: 10px;
+    width: calc(50% - 20px); 
+    overflow-y: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: black ;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    padding: 13px;
+    overflow-x: hidden;
+}
+.UHVR_hed {
+    color: #696969;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    padding: 13px;
+}
+.UHVR_row {
+    color: #969696;
+    font-size: 13px;
+    text-align: center;
+    white-space: nowrap;
+}
+.box_uhvr::-webkit-scrollbar { width: 10px;}
+.box_uhvr::-webkit-scrollbar-track { background: #2E2E2E; border-radius: 10px; }
+.box_uhvr::-webkit-scrollbar-thumb { background: #969696; border-radius: 10px; }
+.box_uhvr::-webkit-scrollbar-thumb:hover { background: #696969;}

@@ -1,0 +1,43 @@
+.section1 {
+    position: fixed;
+    top: 18px;
+    right: 275px;
+}
+.section2 {
+    position: fixed;
+    top: 18px;
+    right: 82px;
+}
+.section3 {
+    position: fixed;
+    top: 207px;
+    right: 275px;
+}
+.section4 {
+    position: fixed;
+    top: 207px;
+    right: 82px;
+}
+.section5 {
+    position: fixed;
+    top: 363px;
+    right: 275px;
+}
+.section6 {
+    position: fixed;
+    top: 433px;
+    right: 82px;
+}
+.btn_set {
+    position: fixed;
+    top: 30px;
+    right: 125px;
+    font-size: 20px;
+    padding: 2px;
+    background-color: #2E2E2E;
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+.btn_set:hover {
+    background-color: #696969; 
+}; 

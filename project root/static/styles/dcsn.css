@@ -1,0 +1,28 @@
+.box_dcsn {
+    position: fixed;
+    top: calc(20% + 36% + 6.3% + 30px);
+    left: calc(50% + 250px + 30px);
+    bottom: 10px;
+    width: 10%; 
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+}
+.DCSN {
+    display: flex;
+    justify-content: space-between;
+    margin: .321vh 0;
+}
+.DCSN_key {
+    color: #696969;
+    font-weight: bold;
+    font-size: 16px;
+}
+.DCSN_val {
+    color: white;
+    font-size: 15px;
+}

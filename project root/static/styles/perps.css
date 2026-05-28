@@ -1,0 +1,43 @@
+.box_coin {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    width: 250px; 
+    overflow-y: auto; 
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: black ;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    direction: rtl;
+}
+/*
+.btn_frsh {
+    position: absolute;
+    top: 22px; 
+    left: 22px; 
+    width: 220px;
+    height: 25px;
+    background-color: black;
+    z-index: 5;
+}
+*/
+.PERPS {
+    position: relative;
+    color: white;
+    font-size: 13px;
+    padding: 5px 10px;
+    font-weight: bold;
+    overflow-x: hidden;
+    border-radius: 5px;
+    background-color: #2E2E2E; 
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+.PERPS:hover {
+    background-color: #696969; 
+}
+.box_coin::-webkit-scrollbar { width: 10px;}
+.box_coin::-webkit-scrollbar-track { background: #2E2E2E; border-radius: 10px; }
+.box_coin::-webkit-scrollbar-thumb { background: #969696; border-radius: 10px; }
+.box_coin::-webkit-scrollbar-thumb:hover { background: #696969;}

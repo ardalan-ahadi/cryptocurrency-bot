@@ -1,0 +1,29 @@
+.box_step {
+    position: fixed;
+    left: calc(250px + 50% + 10% + 60px);
+    bottom: 10px;
+    width: calc(100% - (250px + 50% + 10% + 60px) - 30px);
+    height: 22%; 
+    overflow-y: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: black ;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+.STEP_hed {
+    color: #696969;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.STEP_row {
+    color: #969696;
+    font-weight: bold;
+    font-size: 14.28px;
+}
+.box_step::-webkit-scrollbar { width: 10px;}
+.box_step::-webkit-scrollbar-track { background: #2E2E2E; border-radius: 10px; }
+.box_step::-webkit-scrollbar-thumb { background: #969696; border-radius: 10px; }
+.box_step::-webkit-scrollbar-thumb:hover { background: #696969;}

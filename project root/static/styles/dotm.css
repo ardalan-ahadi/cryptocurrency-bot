@@ -1,0 +1,23 @@
+.slct_tm {
+    position: fixed;
+    display: flex;
+    right: 8.5%;
+    bottom: 85px;
+    opacity: 0.8;
+}
+.btn_tm {
+    position: relative;
+    font-size: 18px;
+    padding: 5px;
+    background-color: #2E2E2E; 
+    transition: background-color 0.2s;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.btn_tm:hover {
+    border: 1px solid #696969;
+}
+.btn_tm:active {
+    transform: scale(0.95);
+    background-color: #969696;
+}

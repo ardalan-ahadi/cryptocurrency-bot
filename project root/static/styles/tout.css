@@ -1,0 +1,30 @@
+.sout {
+    position: absolute;
+    top: 10px;
+    left: 22.5px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.sneedtot {
+    position: absolute;
+    top: 50px;
+    left: 22.5px;
+    font-size: 20px;
+    color: white;
+}
+.iout {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    font-size: 12.3px;
+    color: white;
+}
+.dout {
+    position: absolute;
+    right: 15px;
+    bottom: 36px;
+    padding: 5px;
+    font-size: 11px;
+    color: white;
+}
