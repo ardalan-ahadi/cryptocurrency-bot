@@ -5,6 +5,4 @@
 - in your web browser go to the address "http://localhost:8000/"
 
 # Tech Features
-Python (flask pandas numpy json sklearn tensorflow pythorch)
-HTML CSS
-Javascript
+Python (flask pandas numpy json sklearn tensorflow pythorch), HTML CSS, Javascript
